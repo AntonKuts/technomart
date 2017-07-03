@@ -1,0 +1,761 @@
+
+*{
+margin: 0;
+font-family: Cuprum;
+}
+
+#wrapper {
+
+}
+
+@font-face {
+ font-family: 'Cuprum';
+ src: url('fonts/web/cuprum.woff') format('woff'), url('fonts/web/cuprumbold.woff') format('woff'),
+ url('fonts/web/cuprumbolditalic.woff') format('woff'), url('fonts/web/cuprumitalic.woff') format('woff'),
+ url('fonts/web/ptsans.woff') format('woff'), url('fonts/web/ptsansbold.woff') format('woff');
+ font-weight: normal;
+ font-style: normal;
+}
+
+.background {
+  width: 1350px;
+  height: 320px;
+  background: #dfdfdf;
+  z-index: -1;
+  position: absolute;
+}
+
+.background2 {
+  width: 1350px;
+  height: 510px;
+  background: #dfdfdf;
+  z-index: -1;
+  position: absolute;
+  margin-top: 1820px;
+}
+
+.strip1{
+  background: #293449;
+  width: auto;
+  height: 42px;
+}
+
+.topMenu {
+  width: 940px;
+  height: 50px;
+margin: auto;
+}
+
+.box{
+  width: 220px;
+  height: 37px;
+  background: #ee3643;
+  padding-top: 10px;
+  box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.24);
+  float: left;
+}
+
+.box2{
+  width: 80px;
+  height: 42px;
+  padding: 10px;
+  float: left;
+}
+
+.box3{
+  width: 150px;
+  height: 42px;
+  padding: 10px;
+  margin-left: 60px;
+  float: left;
+}
+
+.box4{
+  width: 150px;
+  height: 42px;
+  padding: 10px;
+  float: left;
+}
+
+.technomarket{
+  font-size: 24px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.textTopMenu {
+  font-size: 17px;
+  color: #ffffff;
+  float: right;
+
+}
+
+.icon-search{
+float: left;
+}
+
+.iconTopMenu{
+  margin-left: 50px;
+
+}
+
+.box5{
+  width: 130px;
+  height: 22px;
+  background: #63a63e;
+  padding: 10px;
+  float: right;
+}
+
+.order {
+  text-align:center;
+  margin-right: 10px;
+}
+
+.boundaries{
+  width: 935px;
+  height: 2900px;
+  margin: auto;
+  /*border: 1px solid black;*/
+}
+
+
+.topInfo{
+padding-top: 44px;
+padding-left: 53px;
+}
+
+.box1TopInfo{
+  width: 196px;
+  height: 60px;
+  float: left;
+}
+
+.textTopInfo{
+  font-size: 16px;
+  color: #ee3643;
+  text-align: left;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+.box2TopInfo {
+  width: 270px;
+  height: 68px;
+  margin-left: 57px;
+  float: left;
+  margin-right: 35px;
+}
+
+.boxTel{
+  width: 250px;
+  height: 20px;
+  border: 3px solid #ffffff;
+  padding: 10px;
+}
+
+.icon-phone {
+  margin-right: 40px;
+}
+
+.tel{
+  font-size: 21px;
+  color: #e9292a;
+  text-decoration: none;
+}
+
+.address{
+  font-size: 14px;
+  color: #32425c;
+  text-align: left;
+  margin-left: 15px;
+}
+
+.box3TopInfo{
+  width: 150px;
+  height: 45px;
+  background: #ffffff;
+  padding: 0;
+  float: left;
+}
+
+.icon-login{
+  margin: 14px;
+  float: left;
+}
+
+.entry{
+  font-size: 21px;
+  color: #000000;
+  margin-top: 10px;
+}
+
+.registration {
+  font-size: 21px;
+  color: #000000;
+}
+
+.box4TopInfo{
+  width: 125px;
+  height: 35px;
+  background: #ffffff;
+  padding-top: 10px;
+  padding-left: 25px;
+  float: right;
+}
+
+.topInfo:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.strip2{
+  background: #293449;
+  width:auto;
+  height: 42px;
+  margin-top: 40px;
+}
+
+
+.understrip2{
+  background: #32425c;
+  width:auto;
+  height: 5px;
+}
+
+.textStrip2 {
+  font-size: 17px;
+  color: #ffffff;
+  text-align: left;
+  float: left;
+  margin-left: 58px;
+  margin-top: 15px;
+}
+
+.allItems {
+  display: table;
+  height: 630px;
+  width: auto;
+}
+
+.item{
+  width:260px;
+  height: 83px;
+  padding: 20px;
+}
+
+.item1{
+  float: left;
+  margin-top: 150px;
+  background: #f6b22d;
+  margin-right: 15px;
+}
+
+.item2{
+  float: left;
+  margin-top: 150px;
+  background: #4aafde;
+  margin-right: 15px;
+}
+
+.item3{
+  float: left;
+  margin-top: 150px;
+  background: #cc79d1;
+}
+
+.item3:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.boxForItem4i5{
+  float: right;
+}
+
+.boxForItem4i5:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.item4{
+  margin-top: 25px;
+  background: #85d179;
+}
+
+.item5{
+  margin-top: 25px;
+  background: #f6b22d;
+}
+
+.textItem1 {
+  font-size: 24px;
+  color: #ffffff;
+  text-align: left;
+  width: 115px;
+}
+
+.button1Item1 {
+  width: 115px;
+  height: 18px;
+  background: #777777;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+  float: left;
+}
+
+.boxItem1{
+  width: 100px;
+  float: left;
+}
+
+.icon{
+  margin-left: 80px;
+  margin-top: 15px;
+}
+
+.newflag{
+  float: right;
+  margin: 0;
+  position: relative;
+  bottom: 104px;
+  left: 20px;
+}
+
+.mainItem{
+  width: 570px;
+  height: 216px;
+  background: url(images/picture.png);
+  padding: 25px;
+  margin-top: 30px;
+  float: left;
+}
+
+.perforator{
+  font-size: 27px;
+  color: #ffffff;
+  text-align:left;
+  text-transform: uppercase;
+}
+
+.perforator2{
+  font-size: 18px;
+  color: #ffffff;
+  text-align:left;
+}
+
+.boxForIcons{
+  margin-top: 40px;
+}
+
+.iconright{
+float: right;
+}
+
+.buttonMainItem{
+  width: 175px;
+  height: 18px;
+  background: #ee3643;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.allItem:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.strip3{
+  width: 875px;
+  height: 30px;
+  background: #e6e6e6;
+  padding: 30px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.popularGoods{
+  display: inline-block;
+  width: 370px;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #32425c;
+  text-align: left;
+}
+
+.allPopularGoods {
+  width: 233px;
+  height: 18px;
+  background: #ee3643;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  float: right;
+}
+
+.goods {
+  width: 220px;
+  height: 300px;
+  border: 1px solid #e5e5e5;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 13px;
+  float: left;
+}
+
+.BFG1 {
+  margin-left: 15px;
+}
+
+.BFG2 {
+  margin-left: 35px;
+  margin-top: 30px;
+  margin-bottom: 22px;
+}
+
+.BFG3 {
+  margin-left: 35px;
+  margin-top: 23px;
+  margin-bottom: 15px;
+}
+
+.BFG4 {
+  margin-left: 35px;
+  margin-top: 23px;
+  margin-bottom: 30px;
+}
+
+.BFGName {
+  font-size: 18px;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 17px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.BFGPPrice {
+  color: #999999;
+  text-decoration: line-through;
+}
+
+.btn {
+  margin-left: 45px;
+}
+
+.BFGPrice {
+  color: #ffffff;
+  position: relative;
+  bottom: 33px;
+}
+
+.BFGPPriceW {
+  color: #ffffff;
+}
+
+.allGoods {
+  width: 940px;
+  height: 347px;
+}
+
+.allGoods:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.allBrands {
+  width: 955px;
+  height: 352px;
+}
+
+.brand {
+  width: 220px;
+  height: 145px;
+  border: 1px solid #e5e5e5;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 13px;
+  float: left;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.allBrands:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+h3 {
+  font-size: 30px;
+  color: #000000;
+  margin-top: 68px;
+  margin-bottom: 10px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.textComp {
+  font-size: 13px;
+  color: #000000;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.newflag2{
+  float: right;
+  margin: 0;
+  position: relative;
+  bottom: 321px;
+}
+
+.mainServiceBox{
+  width: 900px;
+  height: 300px;
+  margin-top: 90px;
+}
+
+.boxForBoxs{
+  width: 260px;
+  height: 330px;
+  float: left;
+}
+
+.boxForBoxs:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.serviceBox{
+  width: 200px;
+  height: 21px;
+  margin: 0;
+  padding: 20px;
+}
+
+.whiteBox{
+  background-color: #ffffff;
+}
+
+.blueBox{
+  background-color: #32425c;
+}
+
+.blueBoxBor{
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.serviceText{
+  font-size: 18px;
+  color: #32425c;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.blueText{
+  color: #32425c;
+}
+
+.whiteText {
+color: #ffffff;
+}
+
+.border-left{
+  position: relative;
+  float: right;
+  bottom: 270px;
+  right: 17px;
+}
+
+.serviceBox2{
+  width: 275px;
+  height: 150px;
+  float: left;
+  margin-left: 65px;
+}
+
+h4 {
+  font-size: 36px;
+  color: #32425c;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.serviceText {
+  font-size: 13px;
+  color: #000000;
+  text-align: left;
+}
+
+.truck{
+  float: right;
+  position: relative;
+  bottom: 100px;
+}
+
+.compAndContact{
+  width: 980px;
+  height: 410px;
+}
+
+.comp {
+  width: 520px;
+  height: 300px;
+  float: left;
+}
+
+.contact {
+  height: 370px;
+  width: 310px;
+  float: left;
+}
+.map {
+  margin-top: 30px;
+}
+
+.transport {
+  font-size: 18px;
+  color: #000000;
+  text-align: left;
+}
+
+.compAndContact::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.buttons {
+  height: 50px;
+  width: 900px;
+}
+
+.button1 {
+  height: 50px;
+  width: 160px;
+  float: left;
+}
+
+.buttonComp{
+  width: 175px;
+  height: 18px;
+  background: #ee3643;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+}
+
+.wrt {
+  width: 233px;
+  height: 18px;
+  background: #ee3643;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  float: right;
+  margin-right: 125px;
+}
+
+.back {
+  background: #293449;
+  width: auto;
+  height: 200px
+}
+
+.footerBoxTechnomarket{
+  width: 220px;
+  height: 68px;
+  background: #ee3643;
+  padding-top: 10px;
+  box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.24);
+  margin-bottom: 30px;
+
+}
+
+.footerTechnomarket {
+  font-size: 30px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+ .footerBoxA {
+   width: 950px;
+   height: 150px;
+   margin: auto;
+ }
+
+ .boxForAddress {
+   width: 325px;
+   height: 140px;
+   float: left;
+
+ }
+
+ .address2{
+  font-size: 18px;
+  color: #ffffff;
+  text-align: left;
+  text-decoration: none;
+}
+
+.forStrip5{
+  padding: 20px;
+}
+
+
+.col {
+  color: #ffd180;
+}
+
+.strip5 {
+text-align: right;
+margin-bottom: : 20px;
+}
+
+.marg {
+margin-top: 40px;
+}
+
+.back2 {
+  background: rgb(31, 49, 73);
+  width: auto;
+  height: 200px
+}
+
+.right {
+
+   font-size: 18px;
+   color: #ffffff;
+   text-align: left;
+   text-decoration: none;
+ }
+  
